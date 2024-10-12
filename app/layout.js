@@ -28,13 +28,13 @@ export default function RootLayout({ children }) {
             <ReservationProvider>{children}</ReservationProvider>
           </main>
         </div>
+        <footer className="text-yellow-50  text-center z-10">
+          Questo progetto è stato realizzato seguendo il corso 'Master modern
+          React from beginner to advanced! Next.js, Context API, React Query,
+          Redux, Tailwind, advanced patterns' su
+          'https://www.udemy.com/course/the-ultimate-react-course'
+        </footer>
       </body>
-      <footer className="text-yellow-50  text-center">
-        Questo progetto è stato realizzato seguendo il corso 'Master modern
-        React from beginner to advanced! Next.js, Context API, React Query,
-        Redux, Tailwind, advanced patterns' su
-        'https://www.udemy.com/course/the-ultimate-react-course'
-      </footer>
     </html>
   );
 }
