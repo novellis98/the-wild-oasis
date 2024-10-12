@@ -11,9 +11,9 @@ function Cabin({ cabin }) {
       <div className="relative scale-[1.15] -translate-x-3">
         <Image
           src={image}
-          alt={`Cabin ${name}`}
           fill
           className="object-cover"
+          alt={`Cabin ${name}`}
         />
       </div>
 
