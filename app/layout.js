@@ -29,10 +29,10 @@ export default function RootLayout({ children }) {
           </main>
         </div>
         <footer className="text-yellow-50  text-center z-10">
-          Questo progetto è stato realizzato seguendo il corso 'Master modern
-          React from beginner to advanced! Next.js, Context API, React Query,
-          Redux, Tailwind, advanced patterns' su
-          'https://www.udemy.com/course/the-ultimate-react-course'
+          Questo progetto è stato realizzato seguendo il corso &apos;Master
+          modern React from beginner to advanced! Next.js, Context API, React
+          Query, Redux, Tailwind, advanced patterns&apos; su
+          &apos;https://www.udemy.com/course/the-ultimate-react-course&apos;
         </footer>
       </body>
     </html>
